@@ -8,10 +8,10 @@
     "discord.js": "v13",
     "ip-range-check": "^0.2.0"
   },
-  "name": "mcsv-discord-bot",
+  "name": "teamkairun-discord-bot",
   "version": "8.2.64",
   "main": "index.js",
-  "repository": "https://github.com/ringo360/Discord.js_Bot.git",
-  "author": "ringo360",
-  "license": "WTFPL(ただしかいるんはソスコを見ることすら禁じられています)"
+  "repository": "https://github.com/TeamKairunv8264/Discord.js_Bot-4teamkairun.git",
+  "author": "kairun8264 (ringo360)",
+  "license": "KAIRUN"
 }

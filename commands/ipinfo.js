@@ -9,7 +9,7 @@ module.exports = {
             option
                 .setName("ip")
                 .setDescription("IPアドレスを指定します。")
-				.setRequired(true)
+                .setRequired(true)
         ),
     execute: async function (interaction) {
         await interaction.deferReply();
@@ -51,7 +51,7 @@ module.exports = {
                     description: `${e.message}`,
                     color: 0xff0000,
                     footer: {
-                        text: "ringoXD's Discord.js Bot"
+                        text: "Teamkairun Discord.js Bot (by ringoXD)"
                     }
                 }]
             })

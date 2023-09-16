@@ -3,31 +3,19 @@ const axios = require("axios");
 
 let servers = {
 	main: {
-		name: "メインサーバー",
-		url: "https://api.mcsv.life/v1/server/status"
-	},
-	creative: {
-		name: "クリエイティブサーバー",
-		url: "https://api2.mcsv.life/v1/server/status"
-	},
-	pvp: {
-		name: "PvPサーバー",
-		url: "https://api3.mcsv.life/v1/server/status"
-	},
-	mcsv: {
-		name: "MCSV(プロキシー)",
-		ip: "play.mcsv.life",
-		be: false
-	},
-	hive: {
-		name: "The Hive",
-		ip: "geo.hivebedrock.network",
+		name: "メイン（研究鯖）",
+		ip: "play.kairun.jp:19132",
 		be: true
 	},
-	hypixel: {
-		name: "Hypixel",
-		ip: "hypixel.net",
-		be: false
+	dhuaun: {
+		name: "ﾃﾞｭｱｳﾝ鯖",
+		ip: "play.kairun.jp:6000",
+		be: true
+	},
+	tintin: {
+		name: "でゅあでゅあでゅあ",
+		ip: "play.kairun.jp:6001",
+		be: true
 	}
 };
 
@@ -116,7 +104,7 @@ module.exports = {
 						description: `内部エラー: ${e.response.statusText}(${e.response.status})`,
 						color: 0xff0000,
 						footer: {
-							text: "ringoXD's Discord.js Bot"
+							text: "Teamkairun Discord.js Bot (by ringoXD)"
 						}
 					}]
 				})

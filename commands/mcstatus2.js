@@ -24,7 +24,7 @@ module.exports = {
 		let isbedrock = interaction.options.getBoolean("bedrock_server")
 		await interaction.deferReply();
 		try {
-//			let target_server = server_ip
+			//			let target_server = server_ip
 			if (server) {
 				let res = await axios.get("https://api.mcsrvstat.us/" + (isbedrock ? "bedrock/" : "") + "3/" + server);
 				if (res.data?.online) {
@@ -89,7 +89,7 @@ module.exports = {
 						description: `内部エラー: ${e.response.statusText}(${e.response.status})`,
 						color: 0xff0000,
 						footer: {
-							text: "ringoXD's Discord.js Bot"
+							text: "Teamkairun Discord.js Bot (by ringoXD)"
 						}
 					}]
 				})

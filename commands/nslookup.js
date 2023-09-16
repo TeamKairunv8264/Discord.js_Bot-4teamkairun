@@ -17,7 +17,7 @@ module.exports = {
             option
                 .setName("domain")
                 .setDescription("ドメインを指定します。")
-				.setRequired(true)
+                .setRequired(true)
         ),
     execute: async function (interaction) {
         await interaction.deferReply();
@@ -62,7 +62,7 @@ module.exports = {
                     title: `${domainName}`,
                     color: 0xfd75ff,
                     footer: {
-                        text: "ringoXD's Discord.js Bot"
+                        text: "Teamkairun Discord.js Bot (by ringoXD)"
                     },
                     fields
                 }],
@@ -74,7 +74,7 @@ module.exports = {
                     description: `${e.message}`,
                     color: 0xff0000,
                     footer: {
-                        text: "ringoXD's Discord.js Bot"
+                        text: "Teamkairun Discord.js Bot (by ringoXD)"
                     }
                 }]
             })
